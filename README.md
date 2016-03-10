@@ -1,23 +1,26 @@
 # Visual Studio Test shim to use xUnit to run tests.
 
-# Requirements
+## Requirements
 - Dotnet-cli tools : https://dotnetcli.blob.core.windows.net/dotnet/beta/Installers/Latest/dotnet-win-x64.latest.exe
     
     
 
-# Notes:
-- this is *very* new code. It works for essentially three test projects that I have to test against.
+## Notes:
+This is *very* new code. It works for essentially three test projects that I have to test against.
     
-- there's a lot that's *not* implemented (VSTest `assert` calls that aren't actually used in my project.)
+There's a lot that's *not* implemented (VSTest `assert` calls that aren't actually used in my project.)
+
+It's really not hard to add in the missing asserts, so if you can and can send me a pull request that'd be awesome.
+
+If there are other things that are more complicated, file an issue, and we can see what we can do.
     
-# Building
+## Building
 
 ### Compiling Code
 
 ``` batch
 
 dotnet restore
-
 
 ```
 
