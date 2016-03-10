@@ -68,7 +68,6 @@ If you're consuming it from a __dotnet-cli__ compiled app, your `project.json` f
 }    
 ```
 
-
 Once that's done, you should be able to run the tests :
 
 ``` powershell
