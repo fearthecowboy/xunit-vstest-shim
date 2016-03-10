@@ -1,8 +1,7 @@
 # Visual Studio Test shim to use xUnit to run tests.
 
-## Requirements
-- Dotnet-cli tools : https://dotnetcli.blob.core.windows.net/dotnet/beta/Installers/Latest/dotnet-win-x64.latest.exe
-    
+## Build Requirements
+Dotnet-cli tools : https://dotnetcli.blob.core.windows.net/dotnet/beta/Installers/Latest/dotnet-win-x64.latest.exe
     
 
 ## Notes:
@@ -18,10 +17,13 @@ If there are other things that are more complicated, file an issue, and we can s
 
 ### Compiling Code
 
-``` batch
+``` powershell
 
+# do a package restore first!
 dotnet restore
 
+# build the code
+dotnet build 
 ```
 
 ### Running tests 
