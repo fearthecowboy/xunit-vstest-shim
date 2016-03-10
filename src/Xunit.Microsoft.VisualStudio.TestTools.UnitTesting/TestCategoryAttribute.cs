@@ -4,10 +4,10 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Xunit.Microsoft.VisualStudio.TestTools.UnitTesting
+namespace Microsoft.VisualStudio.TestTools.UnitTesting
 {
     using System;
-    using Sdk;
+    using Xunit.Sdk;
 
     [TraitDiscoverer("Xunit.Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryDiscoverer", "Xunit.Microsoft.VisualStudio.TestTools.UnitTesting")]
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]

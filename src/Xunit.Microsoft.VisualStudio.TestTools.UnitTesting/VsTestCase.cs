@@ -4,13 +4,13 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Xunit.Microsoft.VisualStudio.TestTools.UnitTesting
+namespace Microsoft.VisualStudio.TestTools.UnitTesting
 {
     using System;
     using System.Threading;
     using System.Threading.Tasks;
-    using Abstractions;
-    using Sdk;
+    using Xunit.Abstractions;
+    using Xunit.Sdk;
 
     public class VsTestCase : XunitTestCase
     {

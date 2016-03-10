@@ -4,10 +4,10 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Xunit.Microsoft.VisualStudio.TestTools.UnitTesting
+namespace Microsoft.VisualStudio.TestTools.UnitTesting
 {
-    using Sdk;
-    
+    using Xunit.Sdk;
+
     public class TestClassAttribute : BeforeAfterTestAttribute
     {
     }

@@ -4,15 +4,11 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Xunit.Microsoft.VisualStudio.TestTools.UnitTesting
+namespace Microsoft.VisualStudio.TestTools.UnitTesting
 {
     using System;
 
     public class ClassInitializeAttribute : Attribute
-    {
-    }
-
-    public class ClassCleanupAttribute : Attribute
     {
     }
 }

@@ -4,12 +4,12 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Xunit.Microsoft.VisualStudio.TestTools.UnitTesting
+namespace Microsoft.VisualStudio.TestTools.UnitTesting
 {
     using System.Collections.Generic;
     using System.Linq;
-    using Abstractions;
-    using Sdk;
+    using Xunit.Abstractions;
+    using Xunit.Sdk;
 
     public class TestCategoryDiscoverer : ITraitDiscoverer
     {

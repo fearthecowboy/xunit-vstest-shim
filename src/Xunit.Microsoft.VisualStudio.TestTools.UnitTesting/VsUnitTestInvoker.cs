@@ -4,15 +4,15 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Xunit.Microsoft.VisualStudio.TestTools.UnitTesting
+namespace Microsoft.VisualStudio.TestTools.UnitTesting
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Reflection;
     using System.Threading;
-    using Abstractions;
-    using Sdk;
+    using Xunit.Abstractions;
+    using Xunit.Sdk;
 
     public class VsUnitTestInvoker : XunitTestInvoker
     {

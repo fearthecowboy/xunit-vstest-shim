@@ -4,13 +4,13 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Xunit.Microsoft.VisualStudio.TestTools.UnitTesting
+namespace Microsoft.VisualStudio.TestTools.UnitTesting
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using Abstractions;
-    using Sdk;
+    using Xunit.Abstractions;
+    using Xunit.Sdk;
 
     /// <summary>
     /// The test method discoverer.

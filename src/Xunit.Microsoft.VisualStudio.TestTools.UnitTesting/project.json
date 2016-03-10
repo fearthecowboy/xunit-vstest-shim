@@ -1,5 +1,12 @@
 {
     "name": "Xunit.Microsoft.VisualStudio.TestTools.UnitTesting",
+    "summary" : "A VSTest to XUnit shim library",
+    "description": "A shim library that enables a developer to target xunit, for tests originally written for Visual Studio's test framework.",
+    "authors": [ "fearthecowboy", "Garrett Serack", "garrett@serack.org" ],
+    
+    "licenseUrl": "https://raw.githubusercontent.com/fearthecowboy/xunit-vstest-shim/master/LICENSE",
+    "projectUrl": "https://github.com/fearthecowboy/xunit-vstest-shim",
+    
     "version": "1.0.0-*",
 
     "dependencies": {
