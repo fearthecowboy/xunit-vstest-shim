@@ -2,7 +2,10 @@
 
 ## Build Requirements
 Dotnet-cli tools : https://dotnetcli.blob.core.windows.net/dotnet/beta/Installers/Latest/dotnet-win-x64.latest.exe
-    
+
+
+## Nuget Package
+Find the NuGet package at : https://www.nuget.org/packages/Xunit.Microsoft.VisualStudio.TestTools.UnitTesting/
 
 ## Notes:
 This is *very* new code. It works for essentially three test projects that I have to test against.
