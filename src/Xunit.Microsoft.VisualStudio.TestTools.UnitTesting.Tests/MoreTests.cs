@@ -2,12 +2,12 @@ namespace Microsoft.VisualStudio.TestTools.UnitTesting.Tests
 {
     using System;
     using System.Threading.Tasks;
-    using Xunit;
     using Assert = UnitTesting.Assert;
 
+    [TestClass]
     public class MoreTests
     {
-        [TestMethod, Trait("green", "blue"), Priority(3)]
+        [TestMethod, Priority(3)]
         public void ThisShouldPri3()
         {
             Assert.IsTrue(true, "This test can't fail.");

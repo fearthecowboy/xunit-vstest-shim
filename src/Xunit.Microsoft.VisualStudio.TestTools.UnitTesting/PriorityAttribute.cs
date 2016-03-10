@@ -9,7 +9,7 @@ namespace Microsoft.VisualStudio.TestTools.UnitTesting
     using System;
     using Xunit.Sdk;
 
-    [TraitDiscoverer("Xunit.Microsoft.VisualStudio.TestTools.UnitTesting.PriorityDiscoverer", "Xunit.Microsoft.VisualStudio.TestTools.UnitTesting")]
+    [TraitDiscoverer("Microsoft.VisualStudio.TestTools.UnitTesting.PriorityDiscoverer", "Xunit.Microsoft.VisualStudio.TestTools.UnitTesting")]
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
     public class PriorityAttribute : Attribute, ITraitAttribute
     {

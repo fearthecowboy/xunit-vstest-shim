@@ -4,17 +4,18 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-using Xunit;
 
-[assembly: TestCaseOrderer("Xunit.Microsoft.VisualStudio.TestTools.UnitTesting.PriorityOrderer", "Xunit.Microsoft.VisualStudio.TestTools.UnitTesting")]
+
+[assembly: Xunit.TestCaseOrderer("Microsoft.VisualStudio.TestTools.UnitTesting.PriorityOrderer", "Microsoft.VisualStudio.TestTools.UnitTesting")]
 
 namespace Microsoft.VisualStudio.TestTools.UnitTesting.Tests
 {
     using System;
     using System.Threading.Tasks;
-    using Xunit;
+    
     using Assert = UnitTesting.Assert;
 
+    [TestClass]
     public class SomeVSTests
     {
 
@@ -60,13 +61,7 @@ namespace Microsoft.VisualStudio.TestTools.UnitTesting.Tests
             Assert.IsTrue(true, "This test can't fail.");
         }
 
-        [Fact]
-        public void SeeIfItWorksWithFact()
-        {
-            Assert.IsTrue(true, "This test can't fail.");
-        }
-
-        [TestMethod]
+       [TestMethod]
         [Ignore]
         public void IgnoreThisTest()
         {
@@ -99,18 +94,6 @@ namespace Microsoft.VisualStudio.TestTools.UnitTesting.Tests
         {
             Task.Delay(10).Wait();
 
-            Assert.IsTrue(true, "This test can't fail.");
-        }
-
-        [TestMethod, Trait("Category", "Red")]
-        public void SeeIfItWorksWithTrait()
-        {
-            Assert.IsTrue(true, "This test can't fail.");
-        }
-
-        [Fact, Trait("Category", "Red")]
-        public void SeeIfItWorksWithFactAndTrait()
-        {
             Assert.IsTrue(true, "This test can't fail.");
         }
     }

@@ -9,7 +9,7 @@ namespace Microsoft.VisualStudio.TestTools.UnitTesting
     using System;
     using Xunit.Sdk;
 
-    [TraitDiscoverer("Xunit.Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryDiscoverer", "Xunit.Microsoft.VisualStudio.TestTools.UnitTesting")]
+    [TraitDiscoverer("Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryDiscoverer", "Xunit.Microsoft.VisualStudio.TestTools.UnitTesting")]
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
     public class TestCategoryAttribute : Attribute, ITraitAttribute
     {

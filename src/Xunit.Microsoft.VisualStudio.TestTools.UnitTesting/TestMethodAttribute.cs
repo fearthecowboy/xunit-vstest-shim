@@ -10,7 +10,7 @@ namespace Microsoft.VisualStudio.TestTools.UnitTesting
     using Xunit;
     using Xunit.Sdk;
 
-    [XunitTestCaseDiscoverer("Xunit.Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodDiscoverer", "Xunit.Microsoft.VisualStudio.TestTools.UnitTesting")]
+    [XunitTestCaseDiscoverer("Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodDiscoverer", "Xunit.Microsoft.VisualStudio.TestTools.UnitTesting")]
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
     public class TestMethodAttribute : FactAttribute
     {

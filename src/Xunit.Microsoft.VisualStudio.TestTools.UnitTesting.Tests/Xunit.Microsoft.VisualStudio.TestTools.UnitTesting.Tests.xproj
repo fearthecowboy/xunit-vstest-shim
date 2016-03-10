@@ -8,8 +8,8 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>5b9d0672-fd49-4e43-af64-ee1cd0e97fb7</ProjectGuid>
     <RootNamespace>Microsoft.VisualStudio.TestTools.UnitTesting.Tests</RootNamespace>
-    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\Xunit.Microsoft.VisualStudio.TestTools.UnitTesting\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
-    <OutputPath Condition="'$(OutputPath)'=='' ">..\Xunit.Microsoft.VisualStudio.TestTools.UnitTesting\artifacts\bin\$(MSBuildProjectName)\</OutputPath>
+    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">$(SolutionPath)\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <OutputPath Condition="'$(OutputPath)'=='' ">$(SolutionPath)\artifacts\bin\$(MSBuildProjectName)\</OutputPath>
   </PropertyGroup>
   <PropertyGroup>
     <SchemaVersion>2.0</SchemaVersion>
